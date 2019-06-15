@@ -1,72 +1,21 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-body, html {
-  height: 100%;
 
+body {
+    margin:5rem;
 }
 
-/* test CSS for tagline */
-.bg-image {
-    position: relative;
+.cardcontain {
+    margin-bottom: 5rem;
 }
-.bg-image img {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-}
-.bg-image h1 {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: grey;
-    height: 70px;
-    top: 90px;
-    background-color: white;
-    font-size: 60px;
-    margin: 10px;
-}
-.bg-image h2 {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: grey;
-    height: 70px;
-    background-color: rgb(255, 255, 255);
-    top: 200px;
-    font-size: 55px;
-    margin: 10px;
-}
-.nav, .main {
-    background-color: #ffffff;
-    text-align: center;
-}
-body{
-    background: rgb(255, 255, 255);
-}
-.firstheading2{
-    color: light rgb(255, 255, 255);
-}
-.namesome{
-    display: block;
-}
-.contactContainer {
-    background: rgb(255, 255, 255);
-}
-.formContainer {
-    background: whitesmoke;
-}
-.contactForm {
-    padding: 10px;
-}
-card{
-    border: none;}
-.containerfirsthead{
-    background: #d3d3d3;
-}
-.rounded-circle{
-    background: #d3d3d3;
-}
+/*
+
+    You can write your own styles here...
+
+
+    ...Or you can use the import command to include
+    other sylesheets into your bunde as well, e.j:
+
+    import 'relative/path/to/stylesheet.scss';
+
+*/
