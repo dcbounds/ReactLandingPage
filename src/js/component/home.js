@@ -15,6 +15,7 @@ export class Home extends React.Component {
 				<Navbar />
 				<Hero />
 				<Portfolios />
+				<Form />
 
 				<p className="text-center mt-5">
 					Made by Darius Bounds, with love!
